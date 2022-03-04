@@ -1,0 +1,29 @@
+{
+  "name": "soap-server",
+  "version": "1.0.0",
+  "description": "SOAP server created with nodejs soap library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=development&& node src/index.js",
+    "prod": "set NODE_ENV=production&& node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasCaba/node-soap-server.git"
+  },
+  "keywords": [
+    "api",
+    "soap"
+  ],
+  "author": "Nicolas Caballero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasCaba/node-soap-server/issues"
+  },
+  "homepage": "https://github.com/NicolasCaba/node-soap-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "soap": "^0.43.0"
+  }
+}
